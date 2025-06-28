@@ -3,7 +3,7 @@ import Programmer from '../../assets/programmer.png'
 
 const About = () => {
   return (
-    <div className='w-full bg-white py-1 px-4'>
+    <div className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] w-full mx-auto grid md:grid-cols-2'>
         <img className='w-[400px] mx-auto' src={Programmer} alt="" />
         <div className='flex flex-col justify-center'>
@@ -13,7 +13,7 @@ const About = () => {
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum culpa commodi nam aliquam, optio, repudiandae sint alias recusandae facere sapiente assumenda animi quod exercitationem fugit rem modi? Cumque, explicabo animi?</p>
           <div className='flex items-center justify-center'>
-            <button className='bg-primary py-2 px-6 rounded-full text-black mt-4'>Contact Us</button>
+            <button className='bg-black py-2 px-6 rounded-full text-secondary font-bold mt-4'>Contact Us</button>
           </div>
         </div>
       </div>

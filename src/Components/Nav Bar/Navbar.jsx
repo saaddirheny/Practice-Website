@@ -14,11 +14,11 @@ const Navbar = () => {
       <div className="flex justify-between items-center max-w-[1240px] w-full mx-auto px-4 text-white">
         <h1 className="text-[#006859] text-2xl font-bold">Practice.</h1>
         <ul className="hidden md:flex">
-          <li className="p-4">Home</li>
-          <li className="p-4">Company</li>
-          <li className="p-4">Resources</li>
-          <li className="p-4">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4 cursor-pointer">Home</li>
+          <li className="p-4 cursor-pointer">Company</li>
+          <li className="p-4 cursor-pointer">Resources</li>
+          <li className="p-4 cursor-pointer">About</li>
+          <li className="p-4 cursor-pointer">Contact</li>
         </ul>
 
         <div className="block md:hidden">
@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div className={nav ? "text-white bg-black fixed left-0 top-0 w-[60%] border-r border-r-gray-900 h-full ease-in-out duration-500" : "fixed left-[-100%]"}>
-          <h1 className="text-[#006859] text-2xl font-bold pl-3">Practice.</h1>
+          <h1 className="text-primary text-2xl font-bold pl-3">Practice.</h1>
           <ul className="">
             <li className="p-2  border-b">Home</li>
             <li className="p-2 border-b">Company</li>
