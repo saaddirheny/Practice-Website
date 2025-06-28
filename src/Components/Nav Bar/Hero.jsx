@@ -25,6 +25,7 @@ const Hero = () => {
         loop
         />
       </div>
+      <p className='text-gray-600 p-2 md:text-2xl text-xl '>Welcome here to explore my practice website. </p>
 
       </div>
     </div>
