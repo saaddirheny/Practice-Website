@@ -1,5 +1,5 @@
 import React from 'react'
-import Programmer from '../../assets/programmer.png'
+import Programmer from '../assets/programmer.png'
 
 const About = () => {
   return (

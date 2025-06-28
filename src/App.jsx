@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './Components/Nav Bar/NavBar'
-import Hero from './Components/Nav Bar/Hero'
-import About from './Components/Nav Bar/About'
-import Newsletter from './Components/Nav Bar/Newsletter'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import About from './Components/About'
+import Newsletter from './Components/Newsletter'
 
 const App = () => {
   return (
